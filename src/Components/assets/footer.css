@@ -1,0 +1,110 @@
+
+@import url("./header.css");
+@import url("./body.css");
+
+
+footer {
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    /* background-color: black; */
+    border-top: 1px solid rgb(131, 127, 127);
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-container {
+    padding: 0 15px;
+}
+
+.footer-title {
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.footer-introduce {
+    width: 30%;
+    height: 100%;
+}
+
+.footer-intro-content {
+    
+}
+
+.footer-intro-content p {
+    white-space: wrap;
+    line-height: 1.2rem;
+    margin-bottom: 12px;
+}
+
+.footer-intro-content.intro-content-img {
+    width: 100%;
+    height: 30%;
+}
+
+.gov-img {
+    width: 70%;
+}
+
+
+
+
+
+
+.footer-link {
+    width: 20%;
+    height: 100%;
+}
+
+.footer-link-content {
+
+}
+
+.footer-link-content ul {
+    list-style-type: none;
+}
+
+.footer-link-content ul>li {
+    line-height: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.footer-link-content ul>li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-contact {
+    width: 20%;
+    height: 100%;
+}
+
+.footer-contact .contact-address {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-content ul {
+    list-style-type: none;
+}
+
+.footer-contact-content ul>li {
+    margin-bottom: 10px;
+}
+
+.footer-contact-content ul>li span{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer-fanpage {
+    width: 20%;
+    height: 100%;
+}
